@@ -1,4 +1,4 @@
-# Worker branch (current master)
+# Workers (current master)
 
 Shows workers failing
 
@@ -7,6 +7,7 @@ Shows workers failing
 3. `ReferenceError: global is not defined`
 
 To demonstrate it is not a code error:
+
 4. Keep the browser open as-is
 5. Copy-paste the `worker.ts` source exactly to replace the generated `dist/worker.js`
 6. Refresh and look in the console - you'll see a successful roundtrip communication
