@@ -4,18 +4,14 @@
   "description": "Simple FuseBox Test",
   "main": "index.js",
   "scripts": {
-    "test:env": "cross-env FUSE_TEST_TIMEOUT=30000 node fuse.js",
-    "test": "cross-env node fuse.js"
+    "build": "node fuse.js && http-server ./dist -o"
   },
   "author": "David Komer",
   "license": "MIT",
   "devDependencies": {
-    "@types/chai": "4.0.4",
     "@types/node": "8.0.26",
-    "chai": "^4.1.2",
-    "cross-env": "5.0.5",
     "fuse-box": "^2.2.3-beta.19",
-    "fuse-test-runner": "1.0.14",
+    "http-server": "^0.10.0",
     "typescript": "2.5.2"
   }
 }
