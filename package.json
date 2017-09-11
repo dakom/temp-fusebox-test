@@ -4,7 +4,7 @@
   "description": "Simple FuseBox Test",
   "main": "index.js",
   "scripts": {
-    "build": "node fuse.js && http-server ./dist -o"
+    "serve": "node fuse.js"
   },
   "author": "David Komer",
   "license": "MIT",
