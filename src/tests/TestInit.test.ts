@@ -2,7 +2,7 @@
 import { expect } from 'chai';
 
 export class TesterInit {
-    timeout: 30000;
+    private timeout:number = 30000;
     
     'Timer test'(done) {
         const amount = 500;
